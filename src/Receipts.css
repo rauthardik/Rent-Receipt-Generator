@@ -1,0 +1,71 @@
+.rent-receipt-container-parent {
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: avoid;
+}
+
+.rent-receipt-container {
+    border: 1px solid #666666;
+    box-shadow: 0px 0px 0px 0px #777777ce;
+    border-radius: 2px;
+    padding: 1em;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span.header-month {
+    color: #565656ce;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.header-title{
+    flex: 2 1;
+}
+.header-date {
+    text-align: right;
+    flex: 1;
+}
+
+.rent-receipt-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rent-receipt-body {
+    margin: 10px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.rent-receipt-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+.rent-receipt-footer-left {
+    text-align: left;
+    flex: 1;
+}
+
+.rent-receipt-footer-right {
+    text-align: right;
+    flex: 1;
+}
+
+.print-button-row.row {
+    margin-top: 20px;
+}
+
+.records-count {
+    text-align: right;
+    /* font-weight: 700; */
+}
+
+div.separator {
+    border-bottom: 1px dashed;
+    margin: 10px 0px 30px 0px;
+}
